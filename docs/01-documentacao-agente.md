@@ -5,7 +5,7 @@
 ### Problema
 > Qual problema financeiro seu agente resolve?
 
-Alertaa de Gastos
+Alerta de Gastos
 
 ### Solução
 > Como o agente resolve esse problema de forma proativa?
