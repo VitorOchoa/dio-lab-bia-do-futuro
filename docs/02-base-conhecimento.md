@@ -35,8 +35,8 @@ import Json
 historico_atendimento = "./data/historico_atendimento.csv"
 transacoes = "./data/transacoes.csv"
 
-perfil_usuario = Jsom.load("./data/perfil_investidor.json")
-produtos_financceiros = ("./data/produtos_financeiros.json")
+perfil_usuario = Jsom.load(open("./data/perfil_investidor.json"))
+produtos_financceiros = Jsom.load(open("./data/produtos_financeiros.json"))
 ```
 
 Os JSON/CSV são carregados no início da sessão e incluídos no contexto do prompt]
